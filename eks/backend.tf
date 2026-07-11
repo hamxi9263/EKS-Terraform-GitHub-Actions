@@ -10,8 +10,6 @@ terraform {
     bucket         = "hamxi-tf-state-bucket"
     region         = "eu-north-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
-    encrypt        = true
   }
 }
 
