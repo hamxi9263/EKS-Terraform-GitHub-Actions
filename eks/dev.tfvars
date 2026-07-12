@@ -34,8 +34,8 @@ endpoint-public-access     = true
 ondemand_instance_types = ["t3.micro"]
 
 spot_instance_types = ["t3.micro"]
-desired_capacity_on_demand = "1"
-min_capacity_on_demand     = "1"
+desired_capacity_on_demand = "3"
+min_capacity_on_demand     = "3"
 max_capacity_on_demand     = "5"
 desired_capacity_spot      = "1"
 min_capacity_spot          = "1"
