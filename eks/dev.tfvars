@@ -52,10 +52,6 @@ addons = [
   {
     name    = "kube-proxy"
     version = "v1.33.0-eksbuild.2"
-  },
-  {
-    name    = "aws-ebs-csi-driver"
-    version = "v1.46.0-eksbuild.1"
   }
-  # Add more addons as needed
+  # aws-ebs-csi-driver removed - add back once IAM role + bigger nodes are sorted
 ]
